@@ -1,0 +1,47 @@
+/* Revisión para asegurar que el grid y las tarjetas respeten el ancho de Bootstrap */
+
+/* Elimina reglas personalizadas que rompen el grid de Bootstrap */
+/* .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-md-3, .col-sm-6 {
+  padding-right: 0;
+  padding-left: 0;
+} */
+
+.tarjeta_animal {
+    border: 2px solid #4CAF50;
+    border-radius: 16px;
+    padding: 18px 12px;
+    margin: 14px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 16px rgba(76,175,80,0.10), 0 1.5px 6px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.tarjeta_animal:hover {
+    box-shadow: 0 8px 32px rgba(76,175,80,0.18), 0 3px 12px rgba(0,0,0,0.12);
+    transform: scale(1.04);
+    background-color: #e8f5e9;
+}
+
+.tarjeta_animal.reproduciendo {
+    background-color: #ff4d4d;
+    border-color: #d32f2f;
+    color: white;
+    box-shadow: 0 8px 32px rgba(211,47,47,0.18), 0 3px 12px rgba(0,0,0,0.12);
+    transform: scale(1.04);
+}
+
+.tarjeta_animal.reproduciendo h5 {
+    color: white;
+}
+
+.tarjeta_animal.reproduciendo img {
+    filter: brightness(0.85) contrast(1.2);
+}
+
