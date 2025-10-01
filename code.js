@@ -54,7 +54,7 @@ const animales = [
 {name:"mono",img:"mono.jpeg",mp3:"mono.mp3"},
 {name:"mosca",img:"mosca.jpeg",mp3:"mosca.mp3"},
 {name:"mosquito",img:"mosquito.jpeg",mp3:"mosquito.mp3"},
-{name:"murciélago",img:"murciélago.jpeg",mp3:"murciélago.mp3"},
+{name:"murciélago",img:"murcielago.jpeg",mp3:"murciélago.mp3"},
 {name:"nutria",img:"nutria.jpeg",mp3:"nutria.mp3"},
 {name:"orca",img:"orca.jpeg",mp3:"orca.mp3"},
 {name:"oso hormiguero",img:"oso_hormiguero.jpeg",mp3:"oso_hormiguero.mp3"},
